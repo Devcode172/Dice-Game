@@ -10,7 +10,7 @@ const PlayGame = () => {
   function RandomNumberGenerator(min, max) {
     if(!selectedNumber)
     {
-      setError('Please Select Number')
+      setError('You have not selected any Number')
       return
     }
     const value = Math.floor(Math.random() * (max - min)) + min;
